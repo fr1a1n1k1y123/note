@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19B6EEE91AEB7F6248F047F7 /* Pods_note.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD9BB65398BDD63B3C73204 /* Pods_note.framework */; };
 		B02138432BE3587900AEBC3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02138422BE3587900AEBC3A /* AppDelegate.swift */; };
 		B02138452BE3587900AEBC3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02138442BE3587900AEBC3A /* SceneDelegate.swift */; };
-		B02138472BE3587900AEBC3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02138462BE3587900AEBC3A /* ViewController.swift */; };
+		B02138472BE3587900AEBC3A /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02138462BE3587900AEBC3A /* NoteViewController.swift */; };
 		B021384A2BE3587900AEBC3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B02138492BE3587900AEBC3A /* Base */; };
 		B021384C2BE3587B00AEBC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B021384B2BE3587B00AEBC3A /* Assets.xcassets */; };
 		B021384F2BE3587B00AEBC3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B021384E2BE3587B00AEBC3A /* Base */; };
-		B021385A2BE3587B00AEBC3A /* noteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02138592BE3587B00AEBC3A /* noteTests.swift */; };
-		B02138642BE3587B00AEBC3A /* noteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02138632BE3587B00AEBC3A /* noteUITests.swift */; };
-		B02138662BE3587B00AEBC3A /* noteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02138652BE3587B00AEBC3A /* noteUITestsLaunchTests.swift */; };
+		B0283D3E2BF45DFB00F07057 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0283D3D2BF45DFB00F07057 /* ScheduleViewController.swift */; };
+		B0D4E9FA2BE35ED500F3CE12 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D4E9F92BE35ED500F3CE12 /* NoteCell.swift */; };
+		B0D4E9FC2BE35F6000F3CE12 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D4E9FB2BE35F6000F3CE12 /* UIViewEx.swift */; };
+		B0D4EA0E2BE36E8C00F3CE12 /* NoteContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D4EA0D2BE36E8C00F3CE12 /* NoteContentViewController.swift */; };
+		B0D4EA132BE377DC00F3CE12 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D4EA122BE377DC00F3CE12 /* Data.swift */; };
+		B0D4EA162BE4973900F3CE12 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B0D4EA152BE4973900F3CE12 /* IQKeyboardManagerSwift */; };
+		B0D4EA182BE4D37600F3CE12 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D4EA172BE4D37600F3CE12 /* Print.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +41,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BD9BB65398BDD63B3C73204 /* Pods_note.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_note.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E64488CDF994AB5C88AEFE2 /* Pods-note.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-note.debug.xcconfig"; path = "Target Support Files/Pods-note/Pods-note.debug.xcconfig"; sourceTree = "<group>"; };
+		788369EB7DBDA471AAC1025A /* Pods-note.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-note.release.xcconfig"; path = "Target Support Files/Pods-note/Pods-note.release.xcconfig"; sourceTree = "<group>"; };
 		B021383F2BE3587900AEBC3A /* note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = note.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02138422BE3587900AEBC3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B02138442BE3587900AEBC3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B02138462BE3587900AEBC3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B02138462BE3587900AEBC3A /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		B02138492BE3587900AEBC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B021384B2BE3587B00AEBC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B021384E2BE3587B00AEBC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B02138502BE3587B00AEBC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B02138552BE3587B00AEBC3A /* noteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B02138592BE3587B00AEBC3A /* noteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteTests.swift; sourceTree = "<group>"; };
 		B021385F2BE3587B00AEBC3A /* noteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = noteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B02138632BE3587B00AEBC3A /* noteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteUITests.swift; sourceTree = "<group>"; };
-		B02138652BE3587B00AEBC3A /* noteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0283D3D2BF45DFB00F07057 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		B0D4E9F92BE35ED500F3CE12 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		B0D4E9FB2BE35F6000F3CE12 /* UIViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
+		B0D4EA0D2BE36E8C00F3CE12 /* NoteContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteContentViewController.swift; sourceTree = "<group>"; };
+		B0D4EA122BE377DC00F3CE12 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B0D4EA172BE4D37600F3CE12 /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B6EEE91AEB7F6248F047F7 /* Pods_note.framework in Frameworks */,
+				B0D4EA162BE4973900F3CE12 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FEC71FC7D5DA96347F39E94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E64488CDF994AB5C88AEFE2 /* Pods-note.debug.xcconfig */,
+				788369EB7DBDA471AAC1025A /* Pods-note.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B02138362BE3587900AEBC3A = {
 			isa = PBXGroup;
 			children = (
 				B02138412BE3587900AEBC3A /* note */,
-				B02138582BE3587B00AEBC3A /* noteTests */,
-				B02138622BE3587B00AEBC3A /* noteUITests */,
 				B02138402BE3587900AEBC3A /* Products */,
+				3FEC71FC7D5DA96347F39E94 /* Pods */,
+				B92289B1EFBE0C16E26CD4DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +123,13 @@
 			children = (
 				B02138422BE3587900AEBC3A /* AppDelegate.swift */,
 				B02138442BE3587900AEBC3A /* SceneDelegate.swift */,
-				B02138462BE3587900AEBC3A /* ViewController.swift */,
+				B02138462BE3587900AEBC3A /* NoteViewController.swift */,
+				B0D4EA0D2BE36E8C00F3CE12 /* NoteContentViewController.swift */,
+				B0D4E9F92BE35ED500F3CE12 /* NoteCell.swift */,
+				B0283D3D2BF45DFB00F07057 /* ScheduleViewController.swift */,
+				B0D4EA122BE377DC00F3CE12 /* Data.swift */,
+				B0D4E9FB2BE35F6000F3CE12 /* UIViewEx.swift */,
+				B0D4EA172BE4D37600F3CE12 /* Print.swift */,
 				B02138482BE3587900AEBC3A /* Main.storyboard */,
 				B021384B2BE3587B00AEBC3A /* Assets.xcassets */,
 				B021384D2BE3587B00AEBC3A /* LaunchScreen.storyboard */,
@@ -110,21 +138,12 @@
 			path = note;
 			sourceTree = "<group>";
 		};
-		B02138582BE3587B00AEBC3A /* noteTests */ = {
+		B92289B1EFBE0C16E26CD4DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B02138592BE3587B00AEBC3A /* noteTests.swift */,
+				0BD9BB65398BDD63B3C73204 /* Pods_note.framework */,
 			);
-			path = noteTests;
-			sourceTree = "<group>";
-		};
-		B02138622BE3587B00AEBC3A /* noteUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B02138632BE3587B00AEBC3A /* noteUITests.swift */,
-				B02138652BE3587B00AEBC3A /* noteUITestsLaunchTests.swift */,
-			);
-			path = noteUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,15 +153,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B02138692BE3587B00AEBC3A /* Build configuration list for PBXNativeTarget "note" */;
 			buildPhases = (
+				BC5C30A69ECBAC08730D4A53 /* [CP] Check Pods Manifest.lock */,
 				B021383B2BE3587900AEBC3A /* Sources */,
 				B021383C2BE3587900AEBC3A /* Frameworks */,
 				B021383D2BE3587900AEBC3A /* Resources */,
+				D41E5CE022E48263C43CAB69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = note;
+			packageProductDependencies = (
+				B0D4EA152BE4973900F3CE12 /* IQKeyboardManagerSwift */,
+			);
 			productName = note;
 			productReference = B021383F2BE3587900AEBC3A /* note.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +239,9 @@
 				Base,
 			);
 			mainGroup = B02138362BE3587900AEBC3A;
+			packageReferences = (
+				B0D4EA142BE4973900F3CE12 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = B02138402BE3587900AEBC3A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,14 +280,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BC5C30A69ECBAC08730D4A53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-note-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41E5CE022E48263C43CAB69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-note/Pods-note-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-note/Pods-note-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-note/Pods-note-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B021383B2BE3587900AEBC3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B02138472BE3587900AEBC3A /* ViewController.swift in Sources */,
+				B0D4EA132BE377DC00F3CE12 /* Data.swift in Sources */,
+				B0D4E9FA2BE35ED500F3CE12 /* NoteCell.swift in Sources */,
+				B0D4EA0E2BE36E8C00F3CE12 /* NoteContentViewController.swift in Sources */,
+				B0283D3E2BF45DFB00F07057 /* ScheduleViewController.swift in Sources */,
+				B0D4EA182BE4D37600F3CE12 /* Print.swift in Sources */,
+				B02138472BE3587900AEBC3A /* NoteViewController.swift in Sources */,
 				B02138432BE3587900AEBC3A /* AppDelegate.swift in Sources */,
 				B02138452BE3587900AEBC3A /* SceneDelegate.swift in Sources */,
+				B0D4E9FC2BE35F6000F3CE12 /* UIViewEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +343,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B021385A2BE3587B00AEBC3A /* noteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +350,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B02138662BE3587B00AEBC3A /* noteUITestsLaunchTests.swift in Sources */,
-				B02138642BE3587B00AEBC3A /* noteUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +425,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +488,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +509,7 @@
 		};
 		B021386A2BE3587B00AEBC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E64488CDF994AB5C88AEFE2 /* Pods-note.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +523,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +539,7 @@
 		};
 		B021386B2BE3587B00AEBC3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788369EB7DBDA471AAC1025A /* Pods-note.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,6 +553,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +683,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0D4EA142BE4973900F3CE12 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0D4EA152BE4973900F3CE12 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0D4EA142BE4973900F3CE12 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B02138372BE3587900AEBC3A /* Project object */;
 }
