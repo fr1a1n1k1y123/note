@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  note
+
+  Created by 羅群瀝 on 2024/5/21.
+  
+*/
+"doneBtn" = "Done";
+"NoteVC.NavTitle" = "note";
+"ConfirmBtn" = "Continue";
+"CancelBtn" = "Cancel";
+"NoteContentVC.alertTitle" = "Revert to the last saved version" ;
+"NoteContentVC.alertSubTitle" = "Current changes will be lost. Continue?";
+"NoteVC.alertTitle" = "Set title";
+"NoteVC.alertPlaceHolder" = "Option?";
+"widgetTitle" = "Note Widget";
+"widgetSubtitle" = "Choose your widget size.";
+"widgetPlaceHolderTitle" = "Title";
+"widgetPlaceHoldercContent" = "Have a nice day.";
+
+
+
+

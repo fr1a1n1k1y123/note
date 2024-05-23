@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  note
+
+  Created by 羅群瀝 on 2024/5/21.
+  
+*/
+"doneBtn" = "完成";
+"NoteVC.NavTitle" = "記事本";
+"ConfirmBtn" = "確定";
+"CancelBtn" = "取消";
+"NoteContentVC.alertTitle" = "還原至上一次儲存";
+"NoteContentVC.alertSubTitle" = "會失去現在內容,確定執行？";
+"NoteVC.alertTitle" = "設定標題";
+"NoteVC.alertPlaceHolder" = "請輸入文字";
+"widgetTitle" = "記事本小工具";
+"widgetSubtitle" = "選擇您需要的大小";
+"widgetPlaceHolderTitle" = "標題";
+"widgetPlaceHoldercContent" = "祝你有美好的一天。";

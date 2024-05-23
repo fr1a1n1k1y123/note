@@ -91,7 +91,25 @@
 		<key>note.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>9</integer>
+		</dict>
+		<key>noteWidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B021383E2BE3587900AEBC3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0CB3F082BFC9DEF006E7CCC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

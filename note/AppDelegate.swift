@@ -8,6 +8,7 @@
 import UIKit
 import RealmSwift
 import IQKeyboardManagerSwift
+import WidgetKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,11 +23,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }catch{
             print("realm init fail: \(error)")
         }
+        let config = Realm.Configuration(
+            fileURL: FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.chunli.note")?.appendingPathComponent("default.realm"),
+            schemaVersion: 1,
+            migrationBlock: { migration, oldSchemaVersion in
+                // Perform migrations if needed
+            }
+        )
+        Realm.Configuration.defaultConfiguration = config
         // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
         return true
     }
-
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        WidgetCenter.shared.reloadTimelines(ofKind: "noteWidget")
+    }
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

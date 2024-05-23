@@ -9,12 +9,12 @@ import Foundation
 import RealmSwift
 
 class Notes: Object{
-    let notes = List<Note>()
+    let noteList = List<Note>()
 }
 
 class Note: Object{
     @objc dynamic var title: String = ""
     @objc dynamic var content: String = ""
-    @objc dynamic var priority: Int = 0
+    @objc dynamic var backup: String = ""
     
 }
